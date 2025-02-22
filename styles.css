@@ -148,7 +148,7 @@ main{
 }
 @media only screen and (min-width: 920px) {
     body{
-        padding: 10em 5em 2em 18em;
+        padding: 8em 5em 2em 13em;
     }
     #cont{
         padding: 0 4em 0 0;
@@ -161,6 +161,6 @@ main{
         margin: 0;
     }
     header p{
-        width: 80%;
+        width: 85%;
     }
 }
