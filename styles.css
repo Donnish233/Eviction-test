@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url(https://fonts.google.com/specimen/League+Spartan);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+body{
+    padding: 5em 10em 2em;
+    background-color: #FFFFFF;
+}
+#cont{
+    padding: 0 4em 0 0;
+    margin: 0 0 3em 0;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    width: 8em;
+    font-weight: 900;
+    line-height: 0.95;
+    margin: 0 0 1em 0;
+}
+header p{
+    width: 90%;
+    color: #A49AA3;
+    line-height: 1.2;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2em;
+}
+.Rated{
+    width: 20em;
+    height: 1.7em;
+    background-color: #F7F2F8;
+    margin: 5px;
+    padding: 10px 0 0 1em;
+    &:nth-child(2){
+        margin-right: 0;
+        position: relative;
+        left: 1.5em;
+    }
+    &:nth-child(3){
+        position: relative;
+        left: 3em;
+    }
+}
+.comment{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-color: hsl(300, 43%, 22%);
+    width: 20em;
+    height: 10em;
+    margin: 0.8em 1.2em 0.8em 0;
+    padding: 1em;
+
+    &:nth-child(2){
+        position: relative;
+        top: 1em;
+    }
+    &:nth-child(3){
+        position: relative;
+        top: 2em;
+    }
+}
+img{
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+    vertical-align: text-top;
+    margin-right: 1em;
+}
+.star{
+    height: 14px;
+    width: 14px;
+    margin: 0;
+}
+em{
+    position: relative;
+    left: 4em;
+    bottom: 1.4em;
+    color: hsl(333, 80%, 67%);
+}
+.comment p {
+    color: white;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
