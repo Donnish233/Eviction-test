@@ -160,4 +160,7 @@ main{
         width: 20em;
         margin: 10px;
     }
+    header p{
+        width: 95%;
+    }
 }
