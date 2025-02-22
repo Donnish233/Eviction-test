@@ -13,7 +13,7 @@ body{
 }
 #cont{
     margin: 0 0 3em 0;
-    width: 77.5%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
@@ -31,6 +31,7 @@ h1{
 header p{
     color: #A49AA3;
     line-height: 1.2;
+    width: 90%;
 }
 aside{
     display: flex;
@@ -118,7 +119,6 @@ main{
     header p{
         text-align: center;
         margin: 1em auto;
-        width: 90%;
     }
     .comment:nth-child(2), .comment:nth-child(3), .Rated:nth-child(2), .Rated:nth-child(3){
 
@@ -148,7 +148,7 @@ main{
 }
 @media only screen and (min-width: 920px) {
     body{
-        padding: 8em 5em 2em 13em;
+        padding: 8em 5em 2em 10em;
     }
     #cont{
         padding: 0 4em 0 0;
@@ -159,8 +159,5 @@ main{
     .comment{
         width: 20em;
         margin: 0;
-    }
-    header p{
-        width: 85%;
     }
 }
