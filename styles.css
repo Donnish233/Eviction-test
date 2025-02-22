@@ -13,7 +13,7 @@ body{
 }
 #cont{
     margin: 0 0 3em 0;
-    width: 70%;
+    width: 77.5%;
     display: flex;
     justify-content: space-between;
 }
@@ -29,7 +29,6 @@ h1{
     line-height: 0.95;
 }
 header p{
-    width: 80%;
     color: #A49AA3;
     line-height: 1.2;
 }
@@ -92,7 +91,7 @@ em{
     color: white;
 }
 main{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -119,6 +118,7 @@ main{
     header p{
         text-align: center;
         margin: 1em auto;
+        width: 90%;
     }
     .comment:nth-child(2), .comment:nth-child(3), .Rated:nth-child(2), .Rated:nth-child(3){
 
@@ -148,7 +148,7 @@ main{
 }
 @media only screen and (min-width: 920px) {
     body{
-        padding: 5em 10em 2em;
+        padding: 10em 5em 2em 18em;
     }
     #cont{
         padding: 0 4em 0 0;
@@ -159,5 +159,8 @@ main{
     .comment{
         width: 20em;
         margin: 0;
+    }
+    header p{
+        width: 80%;
     }
 }
